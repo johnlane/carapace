@@ -37,33 +37,58 @@ Then, configure the form's "submit" button to call it:
 
     <%= submit_tag "Add User", :class => "submit", :onclick => "onSubmit()" %>
 
-
 On the server, mix Carapace into a Rails controller (ApplicationController) class:
 
     require 'carapace'
     include Carapace
     
 Then use Carapace from within action methods:
-    
-    def create_user
-      carapace_session
-      @user = User.new(params[:user])
-      if request.post? 
-        carapace_decrypt! @user.password
-        carapace_decrypt! @user.password_confirmation
-        @user.save
-      end
-    end
 
+    def index
+      carapace_session    
+      if request.post?
+        @message=params[:message]
+        carapace_decrypt! @message
+      end 
+    end 
 
 **Warning:** if the controller rejects a post operation and re-displays itself
 the data is not encrypted when sent to the browser. To maintain security,
 such fields should be cleared before rendering the view.
 
+## Testing
+
+Test the gem with `rake test`. There is also a self-contained rails application
+in `test\rails_app` for further testing and education. See `test\rails_app\README.md`
+for more information.
+
+## History
+
+Carapace was originally written as part of a larger application in 2007 that needed
+to provide a degree of security for sensitive data in situations where SSL could
+not be used. 
+
+The Carapace gem was created in 2012 to make it straightforward to re-use the
+original code in new applications. This was done primarily as a learning exercise.
+
+For revision history see CHANGELOG.md
+
 ## Acknowledgement
 
 Carapace makes use of the [JSBN Library by Tom Wu](http://www-cs-students.stanford.edu/~tjw/jsbn/)
 under the terms of its license (see file LICENCE\_JSBN).
+
+## About the Name
+
+A _Carapace_ is the protective shell that covers and protects animals
+such as crabs and turtles.
+
+Definitions:
+[Oxford](http://oxforddictionaries.com/definition/carapace?q=carapace)
+[Cambridge](http://dictionary.cambridge.org/dictionary/british/carapace)
+
+In a similar vein, this gem allows a protective shell to surround data sent from
+a browser to a web server.
 
 ## License
 

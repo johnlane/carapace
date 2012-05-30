@@ -1,0 +1,162 @@
+
+
+Processing MessageController#index (for 127.0.0.1 at 2012-05-30 11:35:01) [GET]
+  Session ID: 37f055aa5c67605475b0d625d8415ee0
+  Parameters: {"action"=>"index", "controller"=>"message"}
+Rendering message/index
+Completed in 0.06591 (15 reqs/sec) | Rendering: 0.00376 (5%) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-05-30 11:35:01) [GET]
+  Session ID: BAh7CzoTY2FyYXBhY2Vfbm9uY2UiEjkxZ0RKU2xINUwyT2M6GWNhcmFwYWNl%0AX3ByaXZhdGVfa2V5IgJ3Ay0tLS0tQkVHSU4gUlNBIFBSSVZBVEUgS0VZLS0t%0ALS0KTUlJQ1hRSUJBQUtCZ1FDMnl6NG13Z1p0dnNhYUcyUHROak52bkZOc0tV%0AMWRleTFiT25oZEVKbE5YNVNmQ3lsSwpsMGkxTEZjY0NxM1Q3VzNxZjRLR1py%0AUDFXdUduS0d1R2JOWGZzRVpHN3JPeXdjSkhLY3Y0a05rMkEzRy9ES1FGCktF%0ATFdCSVhXRG1KbE0yTXVWeG9pNnVERVVmckJYVTRBMEJUbmI5Z2VFVmRhQXIv%0AWlF3NjRkMlNMeFFJREFRQUIKQW9HQUdqTGRFSThFZnR3MStNWnVOd1Jxc05k%0AMStXMmVBZ1R5aGozR0hJaVJnRTV2cmEvYTFpOENvN3pjSzArNApoRVJtV1pL%0AMjhXNXM0b0NKRVAweEZBNHJST3JaZ3NRaWhuYVF2aldlVkJUSGFvQ1U5ZXh5%0AL3pwdkZiYm1pYjE2CjJoSmg1RXZXS0pHajUwVGc4L0YwRXh0c3MwakdCcEdK%0AYXNIcVJxMHUyeGRkQkVFQ1FRRHZkT3BsdWNDWFJ5QkQKbW1Ydmx0Y05KUldF%0AWXpKVlZVODVIRDdLOW5aWVIxV3l5QW1LVHNMTTdhUWoxYVNqaGlpWTRva3lp%0AdVZodGhDSApFd1pkL01aUkFrRUF3Mnd0TkRVWlRQcThVeXRKQTFXRjZKcnNS%0ARlpxOGljY1pOL3dZbks3U01mK1VKVStKaGpPCjhRM2EyVjd4bUpKZzA1azhD%0ASGlQQjRwMmhkQjJmTzl0TlFKQkFOMHoxdmhqOE5xT2xPcCtiZDQzTEsveTZ2%0ANmkKR0RRbUc0bzVZblJoMnc5UHpvWGFMcDM2aGcrREU5Y2FtLzJIaUdjN0Zk%0AeC8zTWczeE9yU2sxWXRsUkVDUUFtcQp6a21vM3NtS0ZjcmZkMHNzN2VUbDFR%0ANUVZQ0grZ1U4VUxPWVIydVhzenMzWnRDdGFTdEp0NXdlZHhNSFJhK3pMCnhj%0AWjlnRVhWT2F2QTlqdVQ5SWtDUVFEdGRVNDV2OVJza1BkTHZuSVZ1L0FvK2tm%0AMmxybElYaklITEFCSFJvYmcKcUVSM1BwL0FYSk5vSDAyOWFBajdLaWxRRkky%0AWml6RkpFclpyaVRGVmFGTkoKLS0tLS1FTkQgUlNBIFBSSVZBVEUgS0VZLS0t%0ALS0KOgxjc3JmX2lkIiVlZGQ2YWQ5NzdmMGZkZWZmZGMxM2M5ZGQyYzU3ZGY3%0AZDocY2FyYXBhY2VfcHVibGljX21vZHVsdXMiAgABQjZDQjNFMjZDMjA2NkRC%0ARUM2OUExQjYzRUQzNjMzNkY5QzUzNkMyOTRENUQ3QjJENUIzQTc4NUQxMDk5%0ANEQ1Rjk0OUYwQjI5NEE5NzQ4QjUyQzU3MUMwQUFERDNFRDZERUE3RjgyODY2%0ANkIzRjU1QUUxQTcyODZCODY2Q0Q1REZCMDQ2NDZFRUIzQjJDMUMyNDcyOUNC%0ARjg5MEQ5MzYwMzcxQkYwQ0E0MDUyODQyRDYwNDg1RDYwRTYyNjUzMzYzMkU1%0ANzFBMjJFQUUwQzQ1MUZBQzE1RDRFMDBEMDE0RTc2RkQ4MUUxMTU3NUEwMkJG%0ARDk0MzBFQjg3NzY0OEJDNTodY2FyYXBhY2VfcHVibGljX2V4cG9uZW50Igsw%0AMTAwMDEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFz%0AaEhhc2h7AAY6CkB1c2VkewA%3D--cf9703cea5cdccf6a20153b939177a0974b977e1
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/javascripts/carapace.js" with {:method=>:get}):
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/rails-2.0.2/lib/commands/servers/mongrel.rb:64
+    /usr/local/rvm/rubies/ruby-1.8.6-p420/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/rvm/rubies/ruby-1.8.6-p420/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/rails-2.0.2/lib/commands/server.rb:39
+    /usr/local/rvm/rubies/ruby-1.8.6-p420/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/rvm/rubies/ruby-1.8.6-p420/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing MessageController#index (for 127.0.0.1 at 2012-05-30 11:35:07) [POST]
+  Session ID: BAh7CzoTY2FyYXBhY2Vfbm9uY2UiEjkxZ0RKU2xINUwyT2M6GWNhcmFwYWNl%0AX3ByaXZhdGVfa2V5IgJ3Ay0tLS0tQkVHSU4gUlNBIFBSSVZBVEUgS0VZLS0t%0ALS0KTUlJQ1hRSUJBQUtCZ1FDMnl6NG13Z1p0dnNhYUcyUHROak52bkZOc0tV%0AMWRleTFiT25oZEVKbE5YNVNmQ3lsSwpsMGkxTEZjY0NxM1Q3VzNxZjRLR1py%0AUDFXdUduS0d1R2JOWGZzRVpHN3JPeXdjSkhLY3Y0a05rMkEzRy9ES1FGCktF%0ATFdCSVhXRG1KbE0yTXVWeG9pNnVERVVmckJYVTRBMEJUbmI5Z2VFVmRhQXIv%0AWlF3NjRkMlNMeFFJREFRQUIKQW9HQUdqTGRFSThFZnR3MStNWnVOd1Jxc05k%0AMStXMmVBZ1R5aGozR0hJaVJnRTV2cmEvYTFpOENvN3pjSzArNApoRVJtV1pL%0AMjhXNXM0b0NKRVAweEZBNHJST3JaZ3NRaWhuYVF2aldlVkJUSGFvQ1U5ZXh5%0AL3pwdkZiYm1pYjE2CjJoSmg1RXZXS0pHajUwVGc4L0YwRXh0c3MwakdCcEdK%0AYXNIcVJxMHUyeGRkQkVFQ1FRRHZkT3BsdWNDWFJ5QkQKbW1Ydmx0Y05KUldF%0AWXpKVlZVODVIRDdLOW5aWVIxV3l5QW1LVHNMTTdhUWoxYVNqaGlpWTRva3lp%0AdVZodGhDSApFd1pkL01aUkFrRUF3Mnd0TkRVWlRQcThVeXRKQTFXRjZKcnNS%0ARlpxOGljY1pOL3dZbks3U01mK1VKVStKaGpPCjhRM2EyVjd4bUpKZzA1azhD%0ASGlQQjRwMmhkQjJmTzl0TlFKQkFOMHoxdmhqOE5xT2xPcCtiZDQzTEsveTZ2%0ANmkKR0RRbUc0bzVZblJoMnc5UHpvWGFMcDM2aGcrREU5Y2FtLzJIaUdjN0Zk%0AeC8zTWczeE9yU2sxWXRsUkVDUUFtcQp6a21vM3NtS0ZjcmZkMHNzN2VUbDFR%0ANUVZQ0grZ1U4VUxPWVIydVhzenMzWnRDdGFTdEp0NXdlZHhNSFJhK3pMCnhj%0AWjlnRVhWT2F2QTlqdVQ5SWtDUVFEdGRVNDV2OVJza1BkTHZuSVZ1L0FvK2tm%0AMmxybElYaklITEFCSFJvYmcKcUVSM1BwL0FYSk5vSDAyOWFBajdLaWxRRkky%0AWml6RkpFclpyaVRGVmFGTkoKLS0tLS1FTkQgUlNBIFBSSVZBVEUgS0VZLS0t%0ALS0KOhxjYXJhcGFjZV9wdWJsaWNfbW9kdWx1cyICAAFCNkNCM0UyNkMyMDY2%0AREJFQzY5QTFCNjNFRDM2MzM2RjlDNTM2QzI5NEQ1RDdCMkQ1QjNBNzg1RDEw%0AOTk0RDVGOTQ5RjBCMjk0QTk3NDhCNTJDNTcxQzBBQUREM0VENkRFQTdGODI4%0ANjY2QjNGNTVBRTFBNzI4NkI4NjZDRDVERkIwNDY0NkVFQjNCMkMxQzI0NzI5%0AQ0JGODkwRDkzNjAzNzFCRjBDQTQwNTI4NDJENjA0ODVENjBFNjI2NTMzNjMy%0ARTU3MUEyMkVBRTBDNDUxRkFDMTVENEUwMEQwMTRFNzZGRDgxRTExNTc1QTAy%0AQkZEOTQzMEVCODc3NjQ4QkM1Ogxjc3JmX2lkIiVlZGQ2YWQ5NzdmMGZkZWZm%0AZGMxM2M5ZGQyYzU3ZGY3ZDodY2FyYXBhY2VfcHVibGljX2V4cG9uZW50Igsw%0AMTAwMDEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFz%0AaEhhc2h7AAY6CkB1c2VkewA%3D--52b969656f2404faf2c7955521d75dba0e4d2059
+  Parameters: {"message"=>"Wilberflats", "commit"=>"Send", "authenticity_token"=>"668fa79df92550c08b249430ac889c6be18494e1", "action"=>"index", "controller"=>"message"}
+
+
+OpenSSL::PKey::RSAError (padding check failed):
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/carapace-0.0.0.1/lib/carapace.rb:120:in `private_decrypt'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/carapace-0.0.0.1/lib/carapace.rb:120:in `carapace_decrypt'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/carapace-0.0.0.1/lib/carapace.rb:133:in `carapace_decrypt!'
+    /app/controllers/message_controller.rb:10:in `index'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `send'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `perform_action_without_filters'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/rvm/rubies/ruby-1.8.6-p420/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `process'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/rails-2.0.2/lib/commands/servers/mongrel.rb:64
+    /usr/local/rvm/rubies/ruby-1.8.6-p420/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/rvm/rubies/ruby-1.8.6-p420/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/rails-2.0.2/lib/commands/server.rb:39
+    /usr/local/rvm/rubies/ruby-1.8.6-p420/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/rvm/rubies/ruby-1.8.6-p420/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /usr/local/rvm/gems/ruby-1.8.6-p420@rails-2.0.2/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing MessageController#index (for 127.0.0.1 at 2012-05-30 11:35:33) [GET]
+  Session ID: BAh7CzoTY2FyYXBhY2Vfbm9uY2UiEjkxZ0RKU2xINUwyT2M6GWNhcmFwYWNl%0AX3ByaXZhdGVfa2V5IgJ3Ay0tLS0tQkVHSU4gUlNBIFBSSVZBVEUgS0VZLS0t%0ALS0KTUlJQ1hRSUJBQUtCZ1FDMnl6NG13Z1p0dnNhYUcyUHROak52bkZOc0tV%0AMWRleTFiT25oZEVKbE5YNVNmQ3lsSwpsMGkxTEZjY0NxM1Q3VzNxZjRLR1py%0AUDFXdUduS0d1R2JOWGZzRVpHN3JPeXdjSkhLY3Y0a05rMkEzRy9ES1FGCktF%0ATFdCSVhXRG1KbE0yTXVWeG9pNnVERVVmckJYVTRBMEJUbmI5Z2VFVmRhQXIv%0AWlF3NjRkMlNMeFFJREFRQUIKQW9HQUdqTGRFSThFZnR3MStNWnVOd1Jxc05k%0AMStXMmVBZ1R5aGozR0hJaVJnRTV2cmEvYTFpOENvN3pjSzArNApoRVJtV1pL%0AMjhXNXM0b0NKRVAweEZBNHJST3JaZ3NRaWhuYVF2aldlVkJUSGFvQ1U5ZXh5%0AL3pwdkZiYm1pYjE2CjJoSmg1RXZXS0pHajUwVGc4L0YwRXh0c3MwakdCcEdK%0AYXNIcVJxMHUyeGRkQkVFQ1FRRHZkT3BsdWNDWFJ5QkQKbW1Ydmx0Y05KUldF%0AWXpKVlZVODVIRDdLOW5aWVIxV3l5QW1LVHNMTTdhUWoxYVNqaGlpWTRva3lp%0AdVZodGhDSApFd1pkL01aUkFrRUF3Mnd0TkRVWlRQcThVeXRKQTFXRjZKcnNS%0ARlpxOGljY1pOL3dZbks3U01mK1VKVStKaGpPCjhRM2EyVjd4bUpKZzA1azhD%0ASGlQQjRwMmhkQjJmTzl0TlFKQkFOMHoxdmhqOE5xT2xPcCtiZDQzTEsveTZ2%0ANmkKR0RRbUc0bzVZblJoMnc5UHpvWGFMcDM2aGcrREU5Y2FtLzJIaUdjN0Zk%0AeC8zTWczeE9yU2sxWXRsUkVDUUFtcQp6a21vM3NtS0ZjcmZkMHNzN2VUbDFR%0ANUVZQ0grZ1U4VUxPWVIydVhzenMzWnRDdGFTdEp0NXdlZHhNSFJhK3pMCnhj%0AWjlnRVhWT2F2QTlqdVQ5SWtDUVFEdGRVNDV2OVJza1BkTHZuSVZ1L0FvK2tm%0AMmxybElYaklITEFCSFJvYmcKcUVSM1BwL0FYSk5vSDAyOWFBajdLaWxRRkky%0AWml6RkpFclpyaVRGVmFGTkoKLS0tLS1FTkQgUlNBIFBSSVZBVEUgS0VZLS0t%0ALS0KOgxjc3JmX2lkIiVlZGQ2YWQ5NzdmMGZkZWZmZGMxM2M5ZGQyYzU3ZGY3%0AZDocY2FyYXBhY2VfcHVibGljX21vZHVsdXMiAgABQjZDQjNFMjZDMjA2NkRC%0ARUM2OUExQjYzRUQzNjMzNkY5QzUzNkMyOTRENUQ3QjJENUIzQTc4NUQxMDk5%0ANEQ1Rjk0OUYwQjI5NEE5NzQ4QjUyQzU3MUMwQUFERDNFRDZERUE3RjgyODY2%0ANkIzRjU1QUUxQTcyODZCODY2Q0Q1REZCMDQ2NDZFRUIzQjJDMUMyNDcyOUNC%0ARjg5MEQ5MzYwMzcxQkYwQ0E0MDUyODQyRDYwNDg1RDYwRTYyNjUzMzYzMkU1%0ANzFBMjJFQUUwQzQ1MUZBQzE1RDRFMDBEMDE0RTc2RkQ4MUUxMTU3NUEwMkJG%0ARDk0MzBFQjg3NzY0OEJDNTodY2FyYXBhY2VfcHVibGljX2V4cG9uZW50Igsw%0AMTAwMDEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFz%0AaEhhc2h7AAY6CkB1c2VkewA%3D--cf9703cea5cdccf6a20153b939177a0974b977e1
+  Parameters: {"action"=>"index", "controller"=>"message"}
+Rendering message/index
+Completed in 0.00588 (170 reqs/sec) | Rendering: 0.00399 (67%) | 200 OK [http://localhost/]
+
+
+Processing MessageController#index (for 127.0.0.1 at 2012-05-30 11:35:39) [POST]
+  Session ID: BAh7CzoTY2FyYXBhY2Vfbm9uY2UiEjY4Q0cyajgvaUlvOUk6GWNhcmFwYWNl%0AX3ByaXZhdGVfa2V5IgJ3Ay0tLS0tQkVHSU4gUlNBIFBSSVZBVEUgS0VZLS0t%0ALS0KTUlJQ1hRSUJBQUtCZ1FDMnl6NG13Z1p0dnNhYUcyUHROak52bkZOc0tV%0AMWRleTFiT25oZEVKbE5YNVNmQ3lsSwpsMGkxTEZjY0NxM1Q3VzNxZjRLR1py%0AUDFXdUduS0d1R2JOWGZzRVpHN3JPeXdjSkhLY3Y0a05rMkEzRy9ES1FGCktF%0ATFdCSVhXRG1KbE0yTXVWeG9pNnVERVVmckJYVTRBMEJUbmI5Z2VFVmRhQXIv%0AWlF3NjRkMlNMeFFJREFRQUIKQW9HQUdqTGRFSThFZnR3MStNWnVOd1Jxc05k%0AMStXMmVBZ1R5aGozR0hJaVJnRTV2cmEvYTFpOENvN3pjSzArNApoRVJtV1pL%0AMjhXNXM0b0NKRVAweEZBNHJST3JaZ3NRaWhuYVF2aldlVkJUSGFvQ1U5ZXh5%0AL3pwdkZiYm1pYjE2CjJoSmg1RXZXS0pHajUwVGc4L0YwRXh0c3MwakdCcEdK%0AYXNIcVJxMHUyeGRkQkVFQ1FRRHZkT3BsdWNDWFJ5QkQKbW1Ydmx0Y05KUldF%0AWXpKVlZVODVIRDdLOW5aWVIxV3l5QW1LVHNMTTdhUWoxYVNqaGlpWTRva3lp%0AdVZodGhDSApFd1pkL01aUkFrRUF3Mnd0TkRVWlRQcThVeXRKQTFXRjZKcnNS%0ARlpxOGljY1pOL3dZbks3U01mK1VKVStKaGpPCjhRM2EyVjd4bUpKZzA1azhD%0ASGlQQjRwMmhkQjJmTzl0TlFKQkFOMHoxdmhqOE5xT2xPcCtiZDQzTEsveTZ2%0ANmkKR0RRbUc0bzVZblJoMnc5UHpvWGFMcDM2aGcrREU5Y2FtLzJIaUdjN0Zk%0AeC8zTWczeE9yU2sxWXRsUkVDUUFtcQp6a21vM3NtS0ZjcmZkMHNzN2VUbDFR%0ANUVZQ0grZ1U4VUxPWVIydVhzenMzWnRDdGFTdEp0NXdlZHhNSFJhK3pMCnhj%0AWjlnRVhWT2F2QTlqdVQ5SWtDUVFEdGRVNDV2OVJza1BkTHZuSVZ1L0FvK2tm%0AMmxybElYaklITEFCSFJvYmcKcUVSM1BwL0FYSk5vSDAyOWFBajdLaWxRRkky%0AWml6RkpFclpyaVRGVmFGTkoKLS0tLS1FTkQgUlNBIFBSSVZBVEUgS0VZLS0t%0ALS0KOhxjYXJhcGFjZV9wdWJsaWNfbW9kdWx1cyICAAFCNkNCM0UyNkMyMDY2%0AREJFQzY5QTFCNjNFRDM2MzM2RjlDNTM2QzI5NEQ1RDdCMkQ1QjNBNzg1RDEw%0AOTk0RDVGOTQ5RjBCMjk0QTk3NDhCNTJDNTcxQzBBQUREM0VENkRFQTdGODI4%0ANjY2QjNGNTVBRTFBNzI4NkI4NjZDRDVERkIwNDY0NkVFQjNCMkMxQzI0NzI5%0AQ0JGODkwRDkzNjAzNzFCRjBDQTQwNTI4NDJENjA0ODVENjBFNjI2NTMzNjMy%0ARTU3MUEyMkVBRTBDNDUxRkFDMTVENEUwMEQwMTRFNzZGRDgxRTExNTc1QTAy%0AQkZEOTQzMEVCODc3NjQ4QkM1Ogxjc3JmX2lkIiVlZGQ2YWQ5NzdmMGZkZWZm%0AZGMxM2M5ZGQyYzU3ZGY3ZDodY2FyYXBhY2VfcHVibGljX2V4cG9uZW50Igsw%0AMTAwMDEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFz%0AaEhhc2h7AAY6CkB1c2VkewA%3D--4e2b77b984709cc43556f32d7c1055ccf401afe0
+  Parameters: {"message"=>"73ade59ee2ff1362a8557ac3318b2e440b71700d0d02dcd313a5aed838b1c3c89372d821e5da7be936c852a6cf75ad760d9f0bf721e82218405f4f2d08de041e7330c731c802e455c171c98244019ca46cbbb3778c70a45cec754fc40d22676051720c36f709b11c032156d84e4e37278e322c82ae94d7b625c1edd35a40d785", "commit"=>"Send", "authenticity_token"=>"668fa79df92550c08b249430ac889c6be18494e1", "action"=>"index", "controller"=>"message"}
+Rendering message/index
+Completed in 0.01497 (66 reqs/sec) | Rendering: 0.00178 (11%) | 200 OK [http://localhost/]
+
+
+Processing MessageController#index (for 127.0.0.1 at 2012-05-30 11:42:15) [GET]
+  Session ID: BAh7CzoTY2FyYXBhY2Vfbm9uY2UiEjk1akxEWVNRRlVJZGc6GWNhcmFwYWNl%0AX3ByaXZhdGVfa2V5IgJ3Ay0tLS0tQkVHSU4gUlNBIFBSSVZBVEUgS0VZLS0t%0ALS0KTUlJQ1hRSUJBQUtCZ1FDMnl6NG13Z1p0dnNhYUcyUHROak52bkZOc0tV%0AMWRleTFiT25oZEVKbE5YNVNmQ3lsSwpsMGkxTEZjY0NxM1Q3VzNxZjRLR1py%0AUDFXdUduS0d1R2JOWGZzRVpHN3JPeXdjSkhLY3Y0a05rMkEzRy9ES1FGCktF%0ATFdCSVhXRG1KbE0yTXVWeG9pNnVERVVmckJYVTRBMEJUbmI5Z2VFVmRhQXIv%0AWlF3NjRkMlNMeFFJREFRQUIKQW9HQUdqTGRFSThFZnR3MStNWnVOd1Jxc05k%0AMStXMmVBZ1R5aGozR0hJaVJnRTV2cmEvYTFpOENvN3pjSzArNApoRVJtV1pL%0AMjhXNXM0b0NKRVAweEZBNHJST3JaZ3NRaWhuYVF2aldlVkJUSGFvQ1U5ZXh5%0AL3pwdkZiYm1pYjE2CjJoSmg1RXZXS0pHajUwVGc4L0YwRXh0c3MwakdCcEdK%0AYXNIcVJxMHUyeGRkQkVFQ1FRRHZkT3BsdWNDWFJ5QkQKbW1Ydmx0Y05KUldF%0AWXpKVlZVODVIRDdLOW5aWVIxV3l5QW1LVHNMTTdhUWoxYVNqaGlpWTRva3lp%0AdVZodGhDSApFd1pkL01aUkFrRUF3Mnd0TkRVWlRQcThVeXRKQTFXRjZKcnNS%0ARlpxOGljY1pOL3dZbks3U01mK1VKVStKaGpPCjhRM2EyVjd4bUpKZzA1azhD%0ASGlQQjRwMmhkQjJmTzl0TlFKQkFOMHoxdmhqOE5xT2xPcCtiZDQzTEsveTZ2%0ANmkKR0RRbUc0bzVZblJoMnc5UHpvWGFMcDM2aGcrREU5Y2FtLzJIaUdjN0Zk%0AeC8zTWczeE9yU2sxWXRsUkVDUUFtcQp6a21vM3NtS0ZjcmZkMHNzN2VUbDFR%0ANUVZQ0grZ1U4VUxPWVIydVhzenMzWnRDdGFTdEp0NXdlZHhNSFJhK3pMCnhj%0AWjlnRVhWT2F2QTlqdVQ5SWtDUVFEdGRVNDV2OVJza1BkTHZuSVZ1L0FvK2tm%0AMmxybElYaklITEFCSFJvYmcKcUVSM1BwL0FYSk5vSDAyOWFBajdLaWxRRkky%0AWml6RkpFclpyaVRGVmFGTkoKLS0tLS1FTkQgUlNBIFBSSVZBVEUgS0VZLS0t%0ALS0KOgxjc3JmX2lkIiVlZGQ2YWQ5NzdmMGZkZWZmZGMxM2M5ZGQyYzU3ZGY3%0AZDocY2FyYXBhY2VfcHVibGljX21vZHVsdXMiAgABQjZDQjNFMjZDMjA2NkRC%0ARUM2OUExQjYzRUQzNjMzNkY5QzUzNkMyOTRENUQ3QjJENUIzQTc4NUQxMDk5%0ANEQ1Rjk0OUYwQjI5NEE5NzQ4QjUyQzU3MUMwQUFERDNFRDZERUE3RjgyODY2%0ANkIzRjU1QUUxQTcyODZCODY2Q0Q1REZCMDQ2NDZFRUIzQjJDMUMyNDcyOUNC%0ARjg5MEQ5MzYwMzcxQkYwQ0E0MDUyODQyRDYwNDg1RDYwRTYyNjUzMzYzMkU1%0ANzFBMjJFQUUwQzQ1MUZBQzE1RDRFMDBEMDE0RTc2RkQ4MUUxMTU3NUEwMkJG%0ARDk0MzBFQjg3NzY0OEJDNTodY2FyYXBhY2VfcHVibGljX2V4cG9uZW50Igsw%0AMTAwMDEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFz%0AaEhhc2h7AAY6CkB1c2VkewA%3D--7de61c497989b7c3664985de262d578984c4210c
+  Parameters: {"action"=>"index", "controller"=>"message"}
+Rendering message/index
+Completed in 0.00637 (156 reqs/sec) | Rendering: 0.00405 (63%) | 200 OK [http://localhost/]
+
+
+Processing MessageController#index (for 127.0.0.1 at 2012-05-30 11:42:18) [POST]
+  Session ID: BAh7CzoTY2FyYXBhY2Vfbm9uY2UiEjUwN1p1TGJPN0RtVEE6GWNhcmFwYWNl%0AX3ByaXZhdGVfa2V5IgJ3Ay0tLS0tQkVHSU4gUlNBIFBSSVZBVEUgS0VZLS0t%0ALS0KTUlJQ1hRSUJBQUtCZ1FDMnl6NG13Z1p0dnNhYUcyUHROak52bkZOc0tV%0AMWRleTFiT25oZEVKbE5YNVNmQ3lsSwpsMGkxTEZjY0NxM1Q3VzNxZjRLR1py%0AUDFXdUduS0d1R2JOWGZzRVpHN3JPeXdjSkhLY3Y0a05rMkEzRy9ES1FGCktF%0ATFdCSVhXRG1KbE0yTXVWeG9pNnVERVVmckJYVTRBMEJUbmI5Z2VFVmRhQXIv%0AWlF3NjRkMlNMeFFJREFRQUIKQW9HQUdqTGRFSThFZnR3MStNWnVOd1Jxc05k%0AMStXMmVBZ1R5aGozR0hJaVJnRTV2cmEvYTFpOENvN3pjSzArNApoRVJtV1pL%0AMjhXNXM0b0NKRVAweEZBNHJST3JaZ3NRaWhuYVF2aldlVkJUSGFvQ1U5ZXh5%0AL3pwdkZiYm1pYjE2CjJoSmg1RXZXS0pHajUwVGc4L0YwRXh0c3MwakdCcEdK%0AYXNIcVJxMHUyeGRkQkVFQ1FRRHZkT3BsdWNDWFJ5QkQKbW1Ydmx0Y05KUldF%0AWXpKVlZVODVIRDdLOW5aWVIxV3l5QW1LVHNMTTdhUWoxYVNqaGlpWTRva3lp%0AdVZodGhDSApFd1pkL01aUkFrRUF3Mnd0TkRVWlRQcThVeXRKQTFXRjZKcnNS%0ARlpxOGljY1pOL3dZbks3U01mK1VKVStKaGpPCjhRM2EyVjd4bUpKZzA1azhD%0ASGlQQjRwMmhkQjJmTzl0TlFKQkFOMHoxdmhqOE5xT2xPcCtiZDQzTEsveTZ2%0ANmkKR0RRbUc0bzVZblJoMnc5UHpvWGFMcDM2aGcrREU5Y2FtLzJIaUdjN0Zk%0AeC8zTWczeE9yU2sxWXRsUkVDUUFtcQp6a21vM3NtS0ZjcmZkMHNzN2VUbDFR%0ANUVZQ0grZ1U4VUxPWVIydVhzenMzWnRDdGFTdEp0NXdlZHhNSFJhK3pMCnhj%0AWjlnRVhWT2F2QTlqdVQ5SWtDUVFEdGRVNDV2OVJza1BkTHZuSVZ1L0FvK2tm%0AMmxybElYaklITEFCSFJvYmcKcUVSM1BwL0FYSk5vSDAyOWFBajdLaWxRRkky%0AWml6RkpFclpyaVRGVmFGTkoKLS0tLS1FTkQgUlNBIFBSSVZBVEUgS0VZLS0t%0ALS0KOhxjYXJhcGFjZV9wdWJsaWNfbW9kdWx1cyICAAFCNkNCM0UyNkMyMDY2%0AREJFQzY5QTFCNjNFRDM2MzM2RjlDNTM2QzI5NEQ1RDdCMkQ1QjNBNzg1RDEw%0AOTk0RDVGOTQ5RjBCMjk0QTk3NDhCNTJDNTcxQzBBQUREM0VENkRFQTdGODI4%0ANjY2QjNGNTVBRTFBNzI4NkI4NjZDRDVERkIwNDY0NkVFQjNCMkMxQzI0NzI5%0AQ0JGODkwRDkzNjAzNzFCRjBDQTQwNTI4NDJENjA0ODVENjBFNjI2NTMzNjMy%0ARTU3MUEyMkVBRTBDNDUxRkFDMTVENEUwMEQwMTRFNzZGRDgxRTExNTc1QTAy%0AQkZEOTQzMEVCODc3NjQ4QkM1Ogxjc3JmX2lkIiVlZGQ2YWQ5NzdmMGZkZWZm%0AZGMxM2M5ZGQyYzU3ZGY3ZDodY2FyYXBhY2VfcHVibGljX2V4cG9uZW50Igsw%0AMTAwMDEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFz%0AaEhhc2h7AAY6CkB1c2VkewA%3D--84c63cf5b7871dda3ad2e150dd5c9bb01a7c3572
+  Parameters: {"message"=>"202068a333b8f11f4ca209e9c0d8f31f50e7ab133b95625b81fa33b15ee9039a02807fd2a04ad9f10a6f16b7dc5fc11a9112cfcc997446a25384ec5f5bde3e1cc922b515b9775bd2c1e52db52ad3b08f0120cf1f89e8f67c95e004f57db6a86092cd1299a18315a5f8599dc39c0964ea25fd38da069e8904df6d924298c3efb8", "commit"=>"Send", "authenticity_token"=>"668fa79df92550c08b249430ac889c6be18494e1", "action"=>"index", "controller"=>"message"}
+Rendering message/index
+Completed in 0.00910 (109 reqs/sec) | Rendering: 0.00141 (15%) | 200 OK [http://localhost/]
+
+
+Processing MessageController#index (for 127.0.0.1 at 2012-05-30 11:57:03) [GET]
+  Session ID: BAh7CzoTY2FyYXBhY2Vfbm9uY2UiEjc2WEUyRkR4UlFtUUU6GWNhcmFwYWNl%0AX3ByaXZhdGVfa2V5IgJ3Ay0tLS0tQkVHSU4gUlNBIFBSSVZBVEUgS0VZLS0t%0ALS0KTUlJQ1hRSUJBQUtCZ1FDMnl6NG13Z1p0dnNhYUcyUHROak52bkZOc0tV%0AMWRleTFiT25oZEVKbE5YNVNmQ3lsSwpsMGkxTEZjY0NxM1Q3VzNxZjRLR1py%0AUDFXdUduS0d1R2JOWGZzRVpHN3JPeXdjSkhLY3Y0a05rMkEzRy9ES1FGCktF%0ATFdCSVhXRG1KbE0yTXVWeG9pNnVERVVmckJYVTRBMEJUbmI5Z2VFVmRhQXIv%0AWlF3NjRkMlNMeFFJREFRQUIKQW9HQUdqTGRFSThFZnR3MStNWnVOd1Jxc05k%0AMStXMmVBZ1R5aGozR0hJaVJnRTV2cmEvYTFpOENvN3pjSzArNApoRVJtV1pL%0AMjhXNXM0b0NKRVAweEZBNHJST3JaZ3NRaWhuYVF2aldlVkJUSGFvQ1U5ZXh5%0AL3pwdkZiYm1pYjE2CjJoSmg1RXZXS0pHajUwVGc4L0YwRXh0c3MwakdCcEdK%0AYXNIcVJxMHUyeGRkQkVFQ1FRRHZkT3BsdWNDWFJ5QkQKbW1Ydmx0Y05KUldF%0AWXpKVlZVODVIRDdLOW5aWVIxV3l5QW1LVHNMTTdhUWoxYVNqaGlpWTRva3lp%0AdVZodGhDSApFd1pkL01aUkFrRUF3Mnd0TkRVWlRQcThVeXRKQTFXRjZKcnNS%0ARlpxOGljY1pOL3dZbks3U01mK1VKVStKaGpPCjhRM2EyVjd4bUpKZzA1azhD%0ASGlQQjRwMmhkQjJmTzl0TlFKQkFOMHoxdmhqOE5xT2xPcCtiZDQzTEsveTZ2%0ANmkKR0RRbUc0bzVZblJoMnc5UHpvWGFMcDM2aGcrREU5Y2FtLzJIaUdjN0Zk%0AeC8zTWczeE9yU2sxWXRsUkVDUUFtcQp6a21vM3NtS0ZjcmZkMHNzN2VUbDFR%0ANUVZQ0grZ1U4VUxPWVIydVhzenMzWnRDdGFTdEp0NXdlZHhNSFJhK3pMCnhj%0AWjlnRVhWT2F2QTlqdVQ5SWtDUVFEdGRVNDV2OVJza1BkTHZuSVZ1L0FvK2tm%0AMmxybElYaklITEFCSFJvYmcKcUVSM1BwL0FYSk5vSDAyOWFBajdLaWxRRkky%0AWml6RkpFclpyaVRGVmFGTkoKLS0tLS1FTkQgUlNBIFBSSVZBVEUgS0VZLS0t%0ALS0KOgxjc3JmX2lkIiVlZGQ2YWQ5NzdmMGZkZWZmZGMxM2M5ZGQyYzU3ZGY3%0AZDocY2FyYXBhY2VfcHVibGljX21vZHVsdXMiAgABQjZDQjNFMjZDMjA2NkRC%0ARUM2OUExQjYzRUQzNjMzNkY5QzUzNkMyOTRENUQ3QjJENUIzQTc4NUQxMDk5%0ANEQ1Rjk0OUYwQjI5NEE5NzQ4QjUyQzU3MUMwQUFERDNFRDZERUE3RjgyODY2%0ANkIzRjU1QUUxQTcyODZCODY2Q0Q1REZCMDQ2NDZFRUIzQjJDMUMyNDcyOUNC%0ARjg5MEQ5MzYwMzcxQkYwQ0E0MDUyODQyRDYwNDg1RDYwRTYyNjUzMzYzMkU1%0ANzFBMjJFQUUwQzQ1MUZBQzE1RDRFMDBEMDE0RTc2RkQ4MUUxMTU3NUEwMkJG%0ARDk0MzBFQjg3NzY0OEJDNTodY2FyYXBhY2VfcHVibGljX2V4cG9uZW50Igsw%0AMTAwMDEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFz%0AaEhhc2h7AAY6CkB1c2VkewA%3D--76a3be45b04b8db8e44159ff505503ce94334e8e
+  Parameters: {"action"=>"index", "controller"=>"message"}
+Rendering message/index
+Completed in 0.00543 (184 reqs/sec) | Rendering: 0.00353 (65%) | 200 OK [http://localhost/]
+
+
+Processing MessageController#index (for 127.0.0.1 at 2012-05-30 11:57:11) [POST]
+  Session ID: BAh7CzoTY2FyYXBhY2Vfbm9uY2UiEjg5UU53MTEwT2M5RWM6GWNhcmFwYWNl%0AX3ByaXZhdGVfa2V5IgJ3Ay0tLS0tQkVHSU4gUlNBIFBSSVZBVEUgS0VZLS0t%0ALS0KTUlJQ1hRSUJBQUtCZ1FDMnl6NG13Z1p0dnNhYUcyUHROak52bkZOc0tV%0AMWRleTFiT25oZEVKbE5YNVNmQ3lsSwpsMGkxTEZjY0NxM1Q3VzNxZjRLR1py%0AUDFXdUduS0d1R2JOWGZzRVpHN3JPeXdjSkhLY3Y0a05rMkEzRy9ES1FGCktF%0ATFdCSVhXRG1KbE0yTXVWeG9pNnVERVVmckJYVTRBMEJUbmI5Z2VFVmRhQXIv%0AWlF3NjRkMlNMeFFJREFRQUIKQW9HQUdqTGRFSThFZnR3MStNWnVOd1Jxc05k%0AMStXMmVBZ1R5aGozR0hJaVJnRTV2cmEvYTFpOENvN3pjSzArNApoRVJtV1pL%0AMjhXNXM0b0NKRVAweEZBNHJST3JaZ3NRaWhuYVF2aldlVkJUSGFvQ1U5ZXh5%0AL3pwdkZiYm1pYjE2CjJoSmg1RXZXS0pHajUwVGc4L0YwRXh0c3MwakdCcEdK%0AYXNIcVJxMHUyeGRkQkVFQ1FRRHZkT3BsdWNDWFJ5QkQKbW1Ydmx0Y05KUldF%0AWXpKVlZVODVIRDdLOW5aWVIxV3l5QW1LVHNMTTdhUWoxYVNqaGlpWTRva3lp%0AdVZodGhDSApFd1pkL01aUkFrRUF3Mnd0TkRVWlRQcThVeXRKQTFXRjZKcnNS%0ARlpxOGljY1pOL3dZbks3U01mK1VKVStKaGpPCjhRM2EyVjd4bUpKZzA1azhD%0ASGlQQjRwMmhkQjJmTzl0TlFKQkFOMHoxdmhqOE5xT2xPcCtiZDQzTEsveTZ2%0ANmkKR0RRbUc0bzVZblJoMnc5UHpvWGFMcDM2aGcrREU5Y2FtLzJIaUdjN0Zk%0AeC8zTWczeE9yU2sxWXRsUkVDUUFtcQp6a21vM3NtS0ZjcmZkMHNzN2VUbDFR%0ANUVZQ0grZ1U4VUxPWVIydVhzenMzWnRDdGFTdEp0NXdlZHhNSFJhK3pMCnhj%0AWjlnRVhWT2F2QTlqdVQ5SWtDUVFEdGRVNDV2OVJza1BkTHZuSVZ1L0FvK2tm%0AMmxybElYaklITEFCSFJvYmcKcUVSM1BwL0FYSk5vSDAyOWFBajdLaWxRRkky%0AWml6RkpFclpyaVRGVmFGTkoKLS0tLS1FTkQgUlNBIFBSSVZBVEUgS0VZLS0t%0ALS0KOhxjYXJhcGFjZV9wdWJsaWNfbW9kdWx1cyICAAFCNkNCM0UyNkMyMDY2%0AREJFQzY5QTFCNjNFRDM2MzM2RjlDNTM2QzI5NEQ1RDdCMkQ1QjNBNzg1RDEw%0AOTk0RDVGOTQ5RjBCMjk0QTk3NDhCNTJDNTcxQzBBQUREM0VENkRFQTdGODI4%0ANjY2QjNGNTVBRTFBNzI4NkI4NjZDRDVERkIwNDY0NkVFQjNCMkMxQzI0NzI5%0AQ0JGODkwRDkzNjAzNzFCRjBDQTQwNTI4NDJENjA0ODVENjBFNjI2NTMzNjMy%0ARTU3MUEyMkVBRTBDNDUxRkFDMTVENEUwMEQwMTRFNzZGRDgxRTExNTc1QTAy%0AQkZEOTQzMEVCODc3NjQ4QkM1Ogxjc3JmX2lkIiVlZGQ2YWQ5NzdmMGZkZWZm%0AZGMxM2M5ZGQyYzU3ZGY3ZDodY2FyYXBhY2VfcHVibGljX2V4cG9uZW50Igsw%0AMTAwMDEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFz%0AaEhhc2h7AAY6CkB1c2VkewA%3D--8bbb5e9260a4fdc8e64f45bbe22b3f1cff0f7d24
+  Parameters: {"message"=>"142da1a1e8ea1c6f57d97daa94cc7393535f5f3dbf7f1c943b2c890b3b21c93569476be52b6bea71d3ee0b4c24a127a1e87a33617ec483e3c3dff1f3380a9059a8c6812289d53242374264998649386bf3de49edc8c732504ff52c7e7aa074fd01cf02238c605a5a480540e141d7980f2bf63857d9e42a0c3086d3e2eb49281e", "commit"=>"Send", "authenticity_token"=>"668fa79df92550c08b249430ac889c6be18494e1", "action"=>"index", "controller"=>"message"}
+Rendering message/index
+Completed in 0.00840 (119 reqs/sec) | Rendering: 0.00137 (16%) | 200 OK [http://localhost/]

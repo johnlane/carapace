@@ -1,3 +1,5 @@
 *.gem
 tmp/**/*
 *.un~
+log/*
+tmp/*
