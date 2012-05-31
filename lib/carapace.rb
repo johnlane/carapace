@@ -3,7 +3,7 @@ module Carapace
   require 'openssl'
   include OpenSSL
   include PKey
-  include Cipher
+  include Cipher if RUBY_VERSION < "1.8.7"
 
   @carapace_javascript_written = false
 
