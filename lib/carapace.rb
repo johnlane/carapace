@@ -55,7 +55,7 @@ module Carapace
           byte = nibble << 4          #   most significant nibble is bits 5-8
         else
           byte += nibble              #   lease significant nibble is bits 1-4
-          s[i/2] = byte               #   store the converted byte
+          s[i/2] = byte.chr           #   store the converted byte
         end
       end
       RSA.new(session[:carapace_private_key],nil).private_decrypt(s) # perform the decryption

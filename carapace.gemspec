@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'carapace'
-  s.version     = '0.1.1'
+  s.version     = '0.1.2'
   s.date        = '2012-05-31'
   s.summary     = "RSA encryption for HTML form fields"
   s.description = "Allows field contents to be encrypted between broswer and webserver"
