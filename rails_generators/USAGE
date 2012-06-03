@@ -1,7 +1,0 @@
-Usage:
-
-script/generate carapace
-
-This installs the Carapace javascript into public/javascripts.
-
-For further information see the README 
